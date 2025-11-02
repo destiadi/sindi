@@ -1,4 +1,18 @@
-/* Gaya dasar */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 3 kolom */
+  gap: 15px; /* Jarak antar gambar */
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  object-fit: cover; /* Memastikan gambar mengisi kotak tanpa terdistorsi */
+ border-radius: 15%;
+  object-fit: cover; 
+  margin: 1rem 0;
+  border: 0px solid #000000;
+}
 body {
   font-family: 'Segoe UI', sans-serif;
   margin: 0;
@@ -32,7 +46,7 @@ header {
 
 .profile-pic {
   width: 300px;
-  height: 300px;
+  height: 250px;
   border-radius: 0%;
   object-fit: cover; 
   margin: 1rem 0;
