@@ -1,0 +1,63 @@
+/* Gaya dasar */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #f4f4f9;
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+header {
+  background-color: #eb62b0;
+  color: white;
+  padding: 2rem 1rem;
+}
+
+#toggle-theme {
+  background-color: white;
+  color: #4CAF50;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+#toggle-theme:hover {
+  background-color: #45a049;
+  color: white;
+}
+
+.profile-pic {
+  width: 300px;
+  height: 300px;
+  border-radius: 0%;
+  object-fit: cover; 
+  margin: 1rem 0;
+  border: 0px solid #000000;
+}
+
+.about, .contact {
+  padding: 2rem 1rem;
+}
+
+/* Tema gelap */
+.dark-mode {
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+.dark-mode header {
+  background-color: #333;
+}
+
+.dark-mode #toggle-theme {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.dark-mode a {
+  color: #90ee90;
+}
